@@ -1,0 +1,513 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  height: 50px;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  height: calc(100vh - 80px); /* subtract estimated header height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.hero-overlay {
+  padding: 40px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  color: #cca65b;
+  margin: 0 0 20px;
+}
+
+.hero p {
+  margin: 0 0 30px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #555;
+}
+
+.content {
+  background-color: rgb(255, 233, 156);
+  color: rgb(0, 0, 0);
+  padding: 40px 20px;
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.content img {
+  width: 250px;
+  margin-right: 30px;
+}
+
+.bio p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-note {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* profile */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.profile-image {
+  text-align: center;
+  margin-right: 30px;
+}
+
+.profile-image img {
+  width: 250px;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.profile-image .title {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #000000;
+  font-weight: bold;
+}
+
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  height: 50px;
+}
+
+.section-divider {
+  border: none;
+  height: 2px;
+  background: #ccc;
+  margin: 20px auto;
+  width: 40%;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.hero p {
+  margin: 10px 0 30px;
+  font-size: 16px;
+}
+
+.hero button {
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+
+.footer-note {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*lifestyle */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(0, 0, 0, 0.7)
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  height: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  margin-left: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-left: 0;
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.nav-links li a.active {
+  color: #0066ff;
+}
+
+/* Main Content */
+.lifestyle-main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.intro-section h2 {
+  font-size: 36px;
+  color:#e6e5e1;
+  margin-bottom: 10px;
+}
+
+.intro-section p {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.lifestyle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.lifestyle-card {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.lifestyle-card:hover {
+  transform: translateY(-5px);
+}
+
+.lifestyle-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.lifestyle-card h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.lifestyle-card p {
+  font-size: 15px;
+  color: #555;
+}
+
+/* Interactive Section */
+.interactive-section {
+  margin-bottom: 40px;
+}
+
+.interactive-section h3 {
+  font-size: 4px;
+  margin-bottom: 10px;
+}
+
+.interactive-section button {
+  background-color: #ff7e5f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* Social Section */
+.social-section {
+  margin-bottom: 40px;
+}
+
+.social-section a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ded6d6;
+}
+
+.social-section h3 {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.social-section p {
+  margin: 20px 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* galleries page */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a1a;
+  background-color: #fff;
+}
+
+/* Header Section */
+.gallery-header {
+  background-image: url('mosaic-background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 50px 20px 60px;
+  position: relative;
+}
+
+.gallery-header .title {
+  font-size: 60px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.gallery-header .subtitle {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.navbar {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* About Section */
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 40px;
+  gap: 40px;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.about-image {
+  position: relative;
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-text h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.section-divider {
+  border: none;
+  height: 2px;
+  background: #ccc;
+  margin: 20px auto;
+  width: 40%;
+}
+
+/* Works of Artists */
+.works-section {
+  padding: 60px 40px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.works-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.works-header h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+
+.see-all {
+  text-decoration: none;
+  color: #0066ff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.see-all:hover {
+  text-decoration: underline;
+}
+
+.art-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.art-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+.section-divider {
+  border: none;
+  height: 2px;
+  background: #ccc;
+  margin: 20px auto;
+  width: 40%;
+}
+
+/*Alive in Nature Section */
+
+.alive-section {
+  padding: 60px 40px;
+  background-color: #ffffff;
+}
+
+.alive-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.alive-header h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+
+.see-all {
+  text-decoration: none;
+  color: #0066ff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.see-all:hover {
+  text-decoration: underline;
+}
+
+.art-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.art-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+.section-divider {
+  border: none;
+  height: 2px;
+  background: #ccc;
+  margin: 20px auto;
+  width: 40%;
+}
